@@ -5,3 +5,4 @@
   <p>My day job is <a style="color:#42b883">coding</a>, and I like to go fishing during the holidays.</p>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=tsix2019&show_icons=true&theme=cobalt" />
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tsix2019&layout=compact"/>
+  <div align="center"> <img src="https://metrics.lecoq.io/tsix2019?template=classic&config.timezone=Asia%2FShanghai"> </div>
