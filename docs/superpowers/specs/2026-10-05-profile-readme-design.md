@@ -89,3 +89,13 @@ github-readme-stats 用 `default` / `github_dark`，profile-summary-cards 用 `g
 - 本地预览没有 GitHub 的 `<themed-picture>` 脚本，深色检查时用一小段脚本模拟它的切换逻辑
 - 逐个请求 README 中的外部图片 URL，确认都返回 200 且是 SVG
 - 本地只做 commit，push 前先征求同意
+
+## 修订：改为全英文（2026-10-05）
+
+参考 anuraghazra、DenverCoder1、rahuldkjain 等热门主页的写法：一两句自我介绍 + 少量要点，图标和卡片已经展示的信息不再用文字重复。
+
+- README 和 workflow 注释全部改为英文；徽章标签改为 Bilibili / Coolapk / Juejin / Email
+- 打字动画改用 Fira Code：Front-end Developer / Mostly JavaScript, some Go / Based in Wuhu, China
+- 去掉「关于我」标题和重复的要点，只保留两条：在做的项目、业余爱好
+- 小节标题去掉 emoji：Tech Stack / Featured Projects / GitHub Stats
+- 项目卡片里的描述来自各仓库自己的 GitHub 描述，目前是中英双语，README 无法覆盖
