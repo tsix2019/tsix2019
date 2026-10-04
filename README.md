@@ -33,8 +33,8 @@
 
 <!-- Linked cards can't use <picture> (GitHub breaks it apart inside <a>), so they use a transparent background that works in both themes -->
 <p align="center">
-  <a href="https://github.com/tsix2019/safeIP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tsix2019&repo=safeIP&bg_color=00000000&title_color=2F81F7&text_color=768390&icon_color=2F81F7&border_color=76839066" alt="safeIP" /></a>
-  <a href="https://github.com/tsix2019/dicar2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tsix2019&repo=dicar2&bg_color=00000000&title_color=2F81F7&text_color=768390&icon_color=2F81F7&border_color=76839066" alt="dicar2" /></a>
+  <a href="https://github.com/tsix2019/safeIP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tsix2019&repo=safeIP&bg_color=00000000&title_color=2F81F7&text_color=768390&icon_color=2F81F7&border_color=76839066&description_lines_count=3" alt="safeIP" /></a>
+  <a href="https://github.com/tsix2019/dicar2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tsix2019&repo=dicar2&bg_color=00000000&title_color=2F81F7&text_color=768390&icon_color=2F81F7&border_color=76839066&description_lines_count=3" alt="dicar2" /></a>
 </p>
 
 ### GitHub Stats
