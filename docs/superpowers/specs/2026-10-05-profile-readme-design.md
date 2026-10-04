@@ -98,4 +98,4 @@ github-readme-stats 用 `default` / `github_dark`，profile-summary-cards 用 `g
 - 打字动画改用 Fira Code：Front-end Developer / Mostly JavaScript, some Go / Based in Wuhu, China
 - 去掉「关于我」标题和重复的要点，只保留两条：在做的项目、业余爱好
 - 小节标题去掉 emoji：Tech Stack / Featured Projects / GitHub Stats
-- 项目卡片里的描述来自各仓库自己的 GitHub 描述，目前是中英双语，README 无法覆盖
+- 项目卡片里的描述来自各仓库自己的 GitHub 描述，README 无法覆盖；已把 safeIP、dicar2 的仓库描述改成纯英文（去掉中文前缀）
