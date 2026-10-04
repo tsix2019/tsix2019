@@ -45,7 +45,7 @@
 
 ### 3. 技术栈
 
-一排图标（48px）：Vue · Nuxt · React · Node.js · Electron · Go · Gin · Java
+一排图标（48px）：Vue · Nuxt · React · Node.js · Electron · Go · Gin · Java · Kotlin
 
 - 图标来自 tandpfun/skill-icons（MIT），下载到 `icons/`
 - 有深浅两版的图标用 `<picture>` 按 `prefers-color-scheme` 切换

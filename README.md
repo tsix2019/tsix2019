@@ -30,6 +30,7 @@
   <img src="./icons/GoLang.svg" width="48" alt="Go" title="Go" />
   <picture><source media="(prefers-color-scheme: dark)" srcset="./icons/Gin-Dark.svg" /><img src="./icons/Gin-Light.svg" width="48" alt="Gin" title="Gin" /></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="./icons/Java-Dark.svg" /><img src="./icons/Java-Light.svg" width="48" alt="Java" title="Java" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./icons/Kotlin-Dark.svg" /><img src="./icons/Kotlin-Light.svg" width="48" alt="Kotlin" title="Kotlin" /></picture>
 </p>
 
 ## 📌 精选项目
