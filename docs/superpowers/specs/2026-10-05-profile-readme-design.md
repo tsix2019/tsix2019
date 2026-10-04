@@ -34,7 +34,7 @@
   - 酷安（沿用旧 README 里的白色 logo）→ https://www.coolapk.com/u/3406488
   - 掘金 → https://juejin.cn/user/870468941779726
   - Email → mailto:tsix2019@gmail.com
-  - 访问量（komarev.com，同一样式）
+  - 访问量（komarev.com，同一样式）。标签用 `Views`：komarev 按拉丁字符算宽度，中文「访问量」会被截断
 
 ### 2. 关于我
 
@@ -54,9 +54,10 @@
 
 ### 4. 精选项目
 
-github-readme-stats pin 卡片两张并排：safeIP、dicar2。
+github-readme-stats pin 卡片两张并排：safeIP、dicar2，点击跳转到仓库。
 
-- dicar2 仓库目前未公开，公开前卡片会显示错误，公开后自动正常
+- 不用 `<picture>`：`<picture>` 套在 `<a>` 里时，GitHub 会给 `<img>` 再包一层指向图片的链接，嵌套链接被浏览器拆开，`<img>` 掉出 `<picture>`，结果深色版失效、点击打开的是图片
+- 改用一张深浅色通用的透明卡片：`bg_color=00000000`、标题/图标 `2F81F7`、正文 `768390`、边框 `76839066`（半透明，浅色下是浅灰、深色下是深灰）
 
 ### 5. GitHub 数据
 
@@ -65,10 +66,10 @@ github-readme-stats pin 卡片两张并排：safeIP、dicar2。
 - 写代码时间分布卡（github-profile-summary-cards `productive-time`，`utcOffset=8`）
 - 原方案中的「连续贡献天数」卡取消：过去一年只有 8 天有贡献，会显示 0 天
 
-所有卡片都用 `<picture>` 提供深浅两套主题：
+这些卡片不套链接，可以用 `<picture>` 提供深浅两套主题：
 github-readme-stats 用 `default` / `github_dark`，profile-summary-cards 用 `github` / `github_dark`。
 
-### 6. 贪吃蛇
+### 6. 贪吃蛇（页面最底部，紧跟 GitHub 数据）
 
 - 新增 `.github/workflows/snake.yml`：`Platane/snk/svg-only@v3` 生成 `github-snake.svg` 和 `github-snake-dark.svg`（`palette=github-dark`），用 `crazy-max/ghaction-github-pages@v5` 推到 `output` 分支
 - 触发方式：每天 UTC 0 点（北京时间 8 点）、push 到 main、手动触发
@@ -84,6 +85,7 @@ github-readme-stats 用 `default` / `github_dark`，profile-summary-cards 用 `g
 
 ## 验证
 
-- 用 GitHub Markdown API（`POST /markdown`，`mode=gfm`，`context=tsix2019/tsix2019`）渲染 README，在浏览器面板里分别检查浅色和深色效果
+- 用 GitHub Markdown API（`POST /markdown`，`mode=markdown`，和 README 文件的渲染方式一致；`gfm` 模式会把换行变成 `<br>`）渲染 README，在浏览器面板里分别检查浅色和深色效果
+- 本地预览没有 GitHub 的 `<themed-picture>` 脚本，深色检查时用一小段脚本模拟它的切换逻辑
 - 逐个请求 README 中的外部图片 URL，确认都返回 200 且是 SVG
 - 本地只做 commit，push 前先征求同意
